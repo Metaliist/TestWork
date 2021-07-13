@@ -82,7 +82,7 @@ app.post("/file", upload.single('FileTest'), function (req, res, next) {
                 else {
                     var s_1 = '';
                     for (var i = 0; i < contents.length / 10000; i++) {
-                        var cont = contents.slice(i * 10000, 10000);
+                        var cont = contents.slice(i * 10000, i * 10000 + 10000);
                         var a = sendtext(cont, res);
                         a.then(function (value) {
                             if (value.toString().length != 0) {

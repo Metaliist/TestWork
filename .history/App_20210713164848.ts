@@ -45,6 +45,7 @@ app.post("/file", upload.single('FileTest'), function (req, res, next) {
                 else {
                     let s = ''
                     for (let i = 0; i < contents.length / 10000; i++) {
+
                         let cont = contents.slice(i * 10000, i * 10000 + 10000);
                         let a = sendtext(cont, res);
                         a.then((value) => {
