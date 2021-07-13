@@ -1,0 +1,23 @@
+{
+  "name": "testwork",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Metaliist/TestWork.git"
+  },
+  "keywords": [
+    "API",
+    "DATABASE"
+  ],
+  "author": "Titov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Metaliist/TestWork/issues"
+  },
+  "homepage": "https://github.com/Metaliist/TestWork#readme"
+}
